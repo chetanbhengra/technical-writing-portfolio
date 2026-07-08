@@ -11,7 +11,7 @@
 
 # Purpose
 
-This guide explains how to create a Postman account using either the Postman website or the Postman desktop application. After completing this guide, you will have a Postman account configured and ready to begin using the application.
+This guide explains how to create a Postman account using either the Postman website or the Postman desktop application. After completing this guide, you will have a Postman account configured and ready to begin using Postman.
 
 ---
 
@@ -19,7 +19,7 @@ This guide explains how to create a Postman account using either the Postman web
 
 Before you begin, ensure that you have:
 
-- Installed the Postman desktop application.
+- Installed the Postman desktop application (if you plan to use the desktop app).
 - A stable internet connection.
 - Access to an email account.
 
@@ -32,7 +32,7 @@ You can create a Postman account in either of the following ways:
 - From the Postman website before opening the desktop application.
 - From the Postman desktop application after installation.
 
-Both methods use the same account creation process.
+Although both methods use the same account creation form, the experience after account creation differs slightly.
 
 ---
 
@@ -48,7 +48,7 @@ Both methods use the same account creation process.
 
 3. Select **Sign Up for Free**.
 
-   ![Postman homepage](../images/postman-create-account-web.png)
+   ![Postman homepage](../images/launch-postman-webpage.png)
 
 4. The **Create Postman account** page opens.
 
@@ -62,7 +62,7 @@ Both methods use the same account creation process.
 
 3. Create a **Password**.
 
-4. (Optional) Select either or both of the following options:
+4. (Optional) Select either or both of the following:
 
    - **Receive product updates, news, and other marketing communications**
    - **Stay signed in**
@@ -77,13 +77,13 @@ Both methods use the same account creation process.
 >
 > The marketing communication and **Stay signed in** options are optional.
 >
-> Completing the **Verify you are human** verification is required before you can create an account.
+> Completing the **Verify you are human** verification is required before creating an account.
 
 ---
 
 # Alternative sign-up methods
 
-Instead of creating an account with an email address and password, you can choose one of the following options:
+Instead of creating an account using an email address and password, you can choose one of the following options:
 
 - **Sign Up with Google**
 - **Sign Up with GitHub**
@@ -148,43 +148,19 @@ After creating your account, Postman asks you to personalize your workspace.
    - 11–50 members
    - 50+ members
 
-   ![Personalize workspace](../images/postman-personalize.png)
+   ![Personalization page](../images/postman-personalize.png)
+
+5. Select **Continue** to finish the setup.
 
 ---
 
-# Complete the initial setup
+# Complete the setup from the website
 
-After completing the personalization steps, the Postman welcome page appears.
+If you created your account from the Postman website, Postman finishes setting up your account and opens your Postman workspace in the browser.
 
-The welcome page asks whether you would like to connect a local project folder.
+![Postman web workspace](../images/web-account.png)
 
-Choose one of the following:
-
-- **Yes** to connect a local project immediately.
-- **No** to skip this step and connect one later.
-
-Connecting a local project is optional.
-
-![Welcome to Postman](../images/welcome-page.png)
-
----
-
-# Launch the desktop application
-
-If you created your account using the Postman website, your web browser may display a confirmation dialog asking whether the website can open the Postman desktop application.
-
-Select one of the following:
-
-- **Allow**
-- **Always Allow**
-
-Both options launch the Postman desktop application.
-
-Selecting **Always Allow** automatically opens the desktop application whenever Postman requests permission in the future.
-
-![Open Postman dialog](../images/launch-postman-webpage.png)
-
-After permission is granted, the desktop application opens and signs you in automatically.
+From here, you can begin using the Postman web application immediately or later sign in to the desktop application using the same account.
 
 ---
 
@@ -198,11 +174,51 @@ If you installed Postman before creating an account:
 
    ![Postman application home page](../images/postman-app-homepage.png)
 
-3. Your web browser opens the **Create Postman account** page.
+3. Your default web browser opens the same **Create Postman account** page used when signing up directly through the Postman website.
 
 4. Complete the account creation process described earlier in this guide.
 
-5. After your account has been created, authorize your browser to open the Postman desktop application when prompted.
+5. Complete the personalization questions.
+
+---
+
+# Return to the desktop application
+
+After completing the account creation process in your browser, Postman displays a greeting page indicating that it is preparing to redirect you back to the desktop application.
+
+![Greeting page](../images/greeting-webpage.png)
+
+The greeting page automatically changes to a page that launches the desktop application.
+
+![Launch Postman page](../images/launch-postman-page.png)
+
+Your browser may display a confirmation dialog asking whether you want to allow the website to open the Postman desktop application.
+
+Choose one of the following:
+
+- **Allow**
+- **Always Allow**
+
+Selecting **Always Allow** automatically opens the Postman desktop application whenever Postman requests permission in the future.
+
+![Browser launch confirmation](../images/open-postman-browser-dialog.png)
+
+---
+
+# Welcome to Postman
+
+Once the desktop application opens successfully, the Welcome page appears.
+
+You are asked whether you would like to connect a local project folder.
+
+Choose one of the following:
+
+- **Yes** to connect a local project immediately.
+- **No** to skip this step and connect one later.
+
+Connecting a local project folder is optional.
+
+![Welcome page](../images/welcome-page.png)
 
 ---
 
@@ -213,16 +229,16 @@ Verify that your account has been created successfully.
 You should be able to:
 
 - Sign in to the Postman desktop application.
-- View the Postman workspace.
-- Access your account from both the desktop application and the Postman website.
+- Sign in to the Postman web application.
+- Access the same account from both platforms.
 
 ---
 
 # Summary
 
-You have successfully created a Postman account and completed the initial setup process.
+You have successfully created a Postman account.
 
-You are now ready to create your first Postman workspace and begin sending API requests.
+Depending on the method you chose, you can now use Postman through your web browser or the desktop application. Both platforms use the same account, allowing you to switch between them whenever needed.
 
 ---
 
