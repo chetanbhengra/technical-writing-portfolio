@@ -48,7 +48,7 @@ Both methods use the same account creation process.
 
 3. Select **Sign Up for Free**.
 
-   ![Postman homepage](../images/launch-postman-webpage.png)
+   ![Postman homepage](../images/postman-create-account-web.png)
 
 4. The **Create Postman account** page opens.
 
@@ -182,7 +182,7 @@ Both options launch the Postman desktop application.
 
 Selecting **Always Allow** automatically opens the desktop application whenever Postman requests permission in the future.
 
-![Open Postman dialog](../images/open-postman-browser-dialog.png)
+![Open Postman dialog](../images/launch-postman-webpage.png)
 
 After permission is granted, the desktop application opens and signs you in automatically.
 
